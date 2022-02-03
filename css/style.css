@@ -1,0 +1,271 @@
+/* Start : Header */
+
+#topHeader {
+  border-bottom: 1px solid #ebebeb;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, rgba(237,103,103,1) 100%);
+}
+
+
+#bookButton {
+  margin-left: 300px;
+  border-radius: 50px;
+  padding: 10px 25px;
+  background-color: #00dcff;
+  font-weight: 500px;
+}
+
+#bookButton:hover {
+  background-color: #b1ff34;
+}
+
+#topHeader a {
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 0.89rem;
+}
+
+.container-fluid {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+nav ul li a {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+
+/* Start : Home page first hero section */
+.top-hero-section {
+  background-color: #3498db;
+  color: white;
+}
+
+.top-hero-section a {
+  color: white;
+  font-weight: 600;
+}
+
+.qualities-img {
+  width: 200px;
+}
+
+/* END : Home page section */
+.myslideheader {
+  color: cornflowerblue;
+}
+
+/* START : Home page requirement section */
+.requirements-section {
+  background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, rgba(237,103,103,1) 100%);
+  color: white;
+}
+
+/* END : Home page requirement section */
+
+/* START : Home page newsletter section */
+.home-newsletter {
+  background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, rgba(237,103,103,1) 100%);
+  color: white;
+}
+
+.home-newsletter .form-control {
+  height: 50px;
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .btn {
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background: #be0280;
+  color: #fff;
+}
+
+/* END : Home page newsletter section */
+
+/* START-------------------- of About page ---------------------- */
+.breadcrumbs-section {
+  background-color: #e9ecef;
+}
+/* END-------------------- of About page ---------------------- */
+
+/* START-------------------- of Contact Us Page ---------------------- */
+.address p {
+  font-weight: 600;
+}
+
+.bar {
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 17px;
+  border: 1px solid rgb(63, 71, 80);
+}
+
+.formdiv{
+  margin: 10px 20%;
+}
+
+/* rounded image*/
+.img-fluid {
+  border-radius: 50%;
+}
+
+/* book now background */
+.bgbox{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.formdiv{
+  font-size: 18px;
+  position: absolute;
+  width: 35vw;
+}
+
+.bgbox img{
+  height: 93vh;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #cover {
+    height: 220px;
+    width: 365px;
+  }
+
+  .service-img{
+    height: 200px;
+    width: 200px;
+  }
+
+  .service-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #bookButton{
+    width: 150px;
+    margin: 0px;
+  }
+}
+
+/* START : TESTIMONAL SECTION */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.testimonials {
+  padding: 40px 0;
+  background: #fff;
+  color: #031b2e;
+  text-align: center;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border {
+  width: 160px;
+  height: 5px;
+  background: #0dc5c5;
+  margin: 26px auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 30px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.stars {
+  color: #6ab04c;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .col {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* END : TESTIMONAL SECTION */
+
+/* START : Footer */
+.full-footer {
+  background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, rgba(237,103,103,1) 100%);
+}
+
+.top-footer p {
+  color: white;
+}
+
+.top-footer a {
+  color: white;
+  font-weight: 600;
+}
+
+.top-footer h3 {
+  color: white;
+}
+
+.bottom-footer {
+  background-color: #031b2e;
+}
+
+.bottom-footer p {
+  color: white;
+}
+
+/* END : Footer */
+
