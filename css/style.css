@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
 /* Start : Header */
+body{
+  font-family: 'Quicksand', sans-serif;
+}
 
 #topHeader {
   border-bottom: 1px solid #ebebeb;
+  
 }
 
 html{
   scroll-behavior: smooth;
+  
 }
 
 .navbar{
@@ -33,7 +40,7 @@ html{
 }
 
 .container-fluid {
-  padding-left: 25px;
+  padding-left: 50px;
   padding-right: 25px;
 }
 
@@ -209,8 +216,8 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, 
 }
 
 .testimonial img {
-  width: 100px;
-  height: 100px;
+  width: 115px;
+  height: 115px;
   border-radius: 50%;
 }
 
