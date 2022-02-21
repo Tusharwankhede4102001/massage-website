@@ -40,7 +40,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark" >
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
-                      <img src="imgs/re.png" width="110%" alt="">                   
+                      <img src="imgs/re.png" width="80%" alt="">                   
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@
                             <a class="nav-link" href="#testimonial">Testimonals</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="product1.html">Our Product</a>
+                            <a class="nav-link" href="product1.html" onclick="Clickme()">Our Product</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="contactus.html">Contact Us</a>
@@ -251,7 +251,7 @@
         <div class="input-group p-3">
           <input type="email" class="form-control" placeholder="Enter your email">
           <span class="input-group-btn">
-            <button class="btn btn-theme" type="submit">Subscribe</button>
+            <button class="btn btn-theme" onclick="clicked()" type="submit">Subscribe</button>
           </span>
         </div>
       </div>
@@ -272,7 +272,7 @@
       <hr>
       <div class="row">
         <div class="col-md-4 text-center">
-          <img class= "img-fluid qualities-img p-5" src="imgs/services/swedish.jpg" alt="Card image cap">
+          <img class= "img-fluid p-5" src="imgs/services/swedish.jpg" alt="Card image cap">
           <h5>
             Swedish Massage
           </h5>
@@ -282,7 +282,7 @@
 
         </div>
         <div class="col-md-4 text-center">
-          <img class="img-fluid qualities-img p-5" src="imgs/services/hot stone.jpg" alt="Card image cap">
+          <img class="img-fluid p-5" src="imgs/services/hot stone.jpg" alt="Card image cap">
           <h5>
             Hot Stone Massage
           </h5>
@@ -292,7 +292,7 @@
 
         </div>
         <div class="col-md-4 text-center">
-          <img class="img-fluid qualities-img p-5" src="imgs/services/aromatherapy.jpg" alt="Card image cap">
+          <img class="img-fluid p-5" src="imgs/services/aromatherapy.jpg" alt="Card image cap">
           <h5>
             Aromatherapy Massage
           </h5>
@@ -305,7 +305,7 @@
 
       <div class="row mb-md-3">
         <div class="col-md-4 text-center">
-          <img class="img-fluid qualities-img p-5" src="imgs/services/sport.jpg" alt="Card image cap">
+          <img class="img-fluid p-5" src="imgs/services/sport.jpg" alt="Card image cap">
           <h5>
             Sports Massage
           </h5>
@@ -315,7 +315,7 @@
           </p>
         </div>
         <div class="col-md-4 text-center">
-          <img class="img-fluid qualities-img p-5" src="imgs/services/deep tissue.jpg" alt="Card image cap">
+          <img class="img-fluid p-5" src="imgs/services/deep tissue.jpg" alt="Card image cap">
           <h5>
             Deep Tissue Massage
           </h5>
@@ -399,7 +399,7 @@
     <div class="container top-footer p-md-3 p-1">
       <div class="row">
         <div class="col-md-3 pl-4 pr-4">
-          <img class="img-fluid" src="imgs/logo.png" alt="">
+          <img src="imgs/re.png" alt="">
           <p>
             Hands On Wellness is an established organization , providing registered massage therapy since 2022. ...<a href="aboutus.html">Read
               more...</a>
@@ -449,7 +449,6 @@
 </footer>
 <!-- END : Footer Section -->
 
-
     <!-- Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -457,5 +456,23 @@
       crossorigin="anonymous"
     ></script>
 
+    <script>
+      setTimeout(() => {
+        function Clickme(){
+        alert("If you want order call me we will deliver you.")
+      }
+   
+      }, 1000);
+      
+    </script>
+
+<script>
+  function clicked(){
+    alert("Thanks for booking us")
+  }
+</script>
+    
   </body>
+
 </html>
+

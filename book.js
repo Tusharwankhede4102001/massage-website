@@ -20,6 +20,8 @@ bookform.addEventListener("submit", form);
 // Submit form
 function form(e) {
   e.preventDefault();
+  alert("Succesfully you have booked your Appointment")
+
   // Get values
   var bookName = getInputVal("bookName");
   var bookEmail = getInputVal("bookEmail");

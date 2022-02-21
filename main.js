@@ -19,6 +19,7 @@ document.getElementById("contactForm").addEventListener("submit", submitForm);
 // Submit form
 function submitForm(e) {
   e.preventDefault();
+  alert("Succesfully we have received your message.")
 
   // Get values
   var name = getInputVal("name");

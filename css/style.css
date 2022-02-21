@@ -20,6 +20,11 @@ html{
   background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, rgba(237,103,103,1) 100%);
 }
 
+/* rounded image*/
+.img-fluid {
+  border-radius: 50%;
+}
+
 
 #bookButton {
   margin-left: 300px;
@@ -124,10 +129,6 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, 
   margin: 10px 20%;
 }
 
-/* rounded image*/
-.img-fluid {
-  border-radius: 50%;
-}
 
 /* book now background */
 .bgbox{
