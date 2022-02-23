@@ -87,24 +87,24 @@
             <form id="bookingform">
                 <div class="mb-3">
                   <label for="exampleInputEmail1"  class="form-label">Name : </label>
-                  <input id="bookName" type="text" placeholder="Enter name here ... " class="form-control">
+                  <input id="bookName" type="text" required placeholder="Enter name here ... " class="form-control">
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Phone Number : </label>
-                  <input id="bookNumber" type="number" class="form-control" placeholder="Enter phone number here ... ">
+                  <input id="bookNumber" type="number" required class="form-control" placeholder="Enter phone number here ... ">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1"  class="form-label">Email : </label>
-                    <input id="bookEmail" type="email" placeholder="Enter email here ... " class="form-control">
+                    <input id="bookEmail" type="email" required placeholder="Enter email here ... " class="form-control">
                   </div>
-                  <div style="display: flex;">
+                  <div style="display: flex; flex-wrap: wrap">
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Date : </label>
-                        <input id="bookDate" type="date" class="form-control" placeholder="Enter date here ... ">
+                        <input id="bookDate" type="date" required class="form-control" placeholder="Enter date here ... ">
                     </div>
-                    <div class="mb-3" style="margin-left : 20px">
+                    <div class="mb-3 time">
                         <label for="exampleInputPassword1" class="form-label">Time : </label>
-                        <input id="bookTime" type="time" class="form-control" placeholder="Enter time here ... ">
+                        <input id="bookTime" type="time" class="form-control" required placeholder="Enter time here ... ">
                     </div>
                   </div>
                 

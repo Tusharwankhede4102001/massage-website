@@ -20,9 +20,16 @@ html{
   background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, rgba(237,103,103,1) 100%);
 }
 
+/* rounded image in home services*/
+.img-float {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
 /* rounded image*/
 .img-fluid {
   border-radius: 50%;
+  max-width: 140%;
 }
 
 
@@ -110,6 +117,9 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, 
 .breadcrumbs-section {
   background-color: #e9ecef;
 }
+.row {
+  --bs-gutter-x: 9.5rem;
+}
 /* END-------------------- of About page ---------------------- */
 
 /* START-------------------- of Contact Us Page ---------------------- */
@@ -170,6 +180,17 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, 
     margin: 0px;
   }
 }
+
+.time{
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .time{
+    margin-left: 0px;
+  }
+}
+
 
 /* START : TESTIMONAL SECTION */
 * {
