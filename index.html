@@ -249,10 +249,12 @@
           Subscribe to our Newsletter
         </h3>
         <div class="input-group p-3">
-          <input type="email" class="form-control" placeholder="Enter your email">
+          <form class="input-group p-3" onsubmit="clicked()">
+            <input required type="email" class="form-control" placeholder="Enter your email">
           <span class="input-group-btn">
-            <button class="btn btn-theme" onclick="clicked()" type="submit">Subscribe</button>
-          </span>
+            <button class="btn btn-theme" type="submit">Subscribe</button>
+          </span>   
+          </form>
         </div>
       </div>
     </div>
@@ -270,6 +272,7 @@
         </div>
       </div>
       <hr>
+      <div class="how">
       <div class="row">
         <div class="col-md-4 text-center">
           <img class= "img-float p-5" src="imgs/services/swedish.jpg" alt="Card image cap">
@@ -323,6 +326,7 @@
             Deep tissue massage aims to reach deeper layers of muscle and connective tissue.. <a href="deeptissue.html"><b>Read more...</b></a>
           </p>
         </div>
+      </div>
         
   </section>
   <!-- END : Home page section - Our services -->

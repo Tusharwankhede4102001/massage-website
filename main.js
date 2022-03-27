@@ -1,13 +1,12 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyC7oPwmlBKB01ks53zU_XA3eqpHv9--qV0",
-  authDomain: "website-massage.firebaseapp.com",
-  databaseURL: "https://website-massage-default-rtdb.firebaseio.com",
-  projectId: "website-massage",
-  storageBucket: "website-massage.appspot.com",
-  messagingSenderId: "106161646711",
-  appId: "1:106161646711:web:34a9e752fa09b6878baa72",
-  measurementId: "G-BET90ETEKJ"
+  apiKey: "AIzaSyAT1wGkaoY24rwEZsyd8qgAnm6SGKxPnGk",
+  authDomain: "hands-on-wellness.firebaseapp.com",
+  databaseURL: "https://hands-on-wellness-default-rtdb.firebaseio.com",
+  projectId: "hands-on-wellness",
+  storageBucket: "hands-on-wellness.appspot.com",
+  messagingSenderId: "679839802189",
+  appId: "1:679839802189:web:7c423c3484e2b18d4e4d04"
 };
 
 firebase.initializeApp(firebaseConfig);

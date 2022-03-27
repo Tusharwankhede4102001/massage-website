@@ -113,6 +113,13 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(121,9,113,1) 50%, 
 
 /* END : Home page newsletter section */
 
+/*Services we offered*/
+.how:hover img {
+  transform: scale(1.3);
+  transition:all 0.3s ease;
+}
+/*END*/
+
 /* START-------------------- of About page ---------------------- */
 .breadcrumbs-section {
   background-color: #e9ecef;
